@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "npm run format:fix && tsc --project tsconfig.json",
     "format": "prettier --single-quote --trailing-comma all --check './src/**.{ts,tsx}' './src/**/**.{ts,tsx}'",
