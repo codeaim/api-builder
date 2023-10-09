@@ -84,7 +84,10 @@ export function routes<
       current: Route<REQUEST, RESPONSE>,
     ) => ({
       ...previous,
-      [current.resource]: [...current.httpHandlers, ...(previous[current.resource] ? previous[current.resource] : [])],
+      [current.resource]: [
+        ...current.httpHandlers,
+        ...(previous[current.resource] ? previous[current.resource] : []),
+      ],
       ...current.routes
         .map((nestedRoute: Route<REQUEST, RESPONSE>) => ({
           ...nestedRoute,
