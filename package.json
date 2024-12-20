@@ -1,22 +1,22 @@
 {
   "name": "@codeaim/api-builder",
   "version": "0.0.1",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
-  "type": "module",
-  "scripts": {
-    "build": "npm run format:fix && tsc --project tsconfig.json",
-    "format": "prettier --single-quote --trailing-comma all --check './src/**.{ts,tsx}' './src/**/**.{ts,tsx}'",
-    "format:fix": "prettier --single-quote --trailing-comma all --write './src/**.{ts,tsx}' './src/**/**.{ts,tsx}'",
-    "lint": "eslint **/*.ts"
+  "bugs": {
+    "url": "https://github.com/codeaim/api-builder/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codeaim/api-builder"
   },
   "author": "codeaim",
-  "bugs": {
-    "url": "https://github.com/codeaim/api-builder/issues"
+  "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "npm run format:fix && tsc --project tsconfig.json",
+    "format": "prettier --single-quote --trailing-comma all --check './src/**.{ts,tsx}' './src/**/**.{ts,tsx}'",
+    "format:fix": "prettier --single-quote --trailing-comma all --write './src/**.{ts,tsx}' './src/**/**.{ts,tsx}'",
+    "lint": "eslint **/*.ts"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
