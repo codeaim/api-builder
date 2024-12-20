@@ -63,7 +63,6 @@ export function route<
 export function bind<
   REQUEST extends APIGatewayProxyEvent,
   RESPONSE extends APIGatewayProxyResult,
-  CONTEXT extends Record<string, unknown> = {},
 >(
   httpMethod: HttpMethod,
   handler: Handler<REQUEST, RESPONSE>,

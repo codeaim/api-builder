@@ -20,12 +20,12 @@
   },
   "devDependencies": {
     "aws-lambda": "^1.0.7",
-    "prettier": "^3.0.3",
-    "@typescript-eslint/eslint-plugin": "^6.7.5",
-    "@typescript-eslint/parser": "^6.7.5",
-    "@types/aws-lambda": "^8.10.124",
-    "eslint": "^8.51.0",
-    "typescript": "^5.2.2"
+    "prettier": "^3.4.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "@types/aws-lambda": "^8.10.146",
+    "eslint": "^8.57.1",
+    "typescript": "^5.7.2"
   },
   "eslintConfig": {
     "root": true,
